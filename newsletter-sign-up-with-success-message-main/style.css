@@ -89,28 +89,27 @@ h5 {
     }
     .cont{
         background-color: white;
-        margin-left: 20%;
-        margin-top: 1%;
-        margin-right: 20%;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-right: 100px;
         margin-bottom: 20%;
         border-radius: 50px;
         
     }
     .main-container{
-        margin-left:50%;
-        margin-top: 2%;
+        margin-left: 576px;
+        margin-top: 10px;
+        margin-right: 50px;
         display: flex;
         flex-direction: row-reverse;
     }
     .image {
         margin: 2%;
-        margin-left: 5%;
-
+        margin-left: 10px;
     }
     .texts {
         margin-top: 15%;
-        
-
+        margin-left: 880px;
     }
 
 } 
