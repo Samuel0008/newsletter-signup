@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cont">
+    <div class="main-container">
+      <div class="image">
+        <img src="./assets/images/illustration-sign-up-mobile.svg"  alt="Illustration Sign Up Image" class="myImg">
+      </div>
+      <div class="texts">
+        <h1 class="frstHeading">Stay updated!</h1>
+        <p class="para">
+           <span class="ini">Join 60,000+ product managers receiving monthly updates on:</span>
+           <span class="first-span"></span>
+           <b><span class="second-span"></span></b>
+           <span class="third-span"></span>
+        </p>
+        <div class="remove">
+          <ul>
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+          <p class="emailPara">
+            <h5>Email address</h5>
+            <h5 class="invalidMsg"></h5>
+          </p>
+          <input type="text" id="emailInput" class="myInput" placeholder="email@company.com">
+        </div>
+        
+        <button onclick="subscribe()" id="subBtn">Subscribe to monthly newsletter</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="myjs.js"></script>
+</body>
+</html>

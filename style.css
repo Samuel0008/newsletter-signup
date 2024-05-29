@@ -1,0 +1,115 @@
+*, ::after, ::before{
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: hsl(235, 18%, 26%);
+}
+
+.main-container{
+    max-width: 375px;
+}
+
+.image {
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    
+}
+
+.texts {
+    margin-left: 20px;
+    
+}
+
+h1, p, ul {
+    margin-bottom: 35px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin-left: 30px;
+    padding-bottom: 10px;
+    list-style-image: url(./assets/images/icon-list.svg);
+}
+
+h1 {
+    color: hsl(234, 29%, 20%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h5 {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding-left: 20px;
+    color: hsl(231, 7%, 60%);
+}
+
+input, button {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
+    display: block;
+}
+
+button {
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    width: 326px;
+}
+#subBtn:hover {
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+.myInput:hover {
+    cursor: pointer;
+}
+
+.invalidMsg {
+    margin-left: 90px;
+    
+}
+h5 {
+    display: inline;
+}
+@media (min-width: 576px) {
+    body{
+        background-color: #0a1c25;
+    }
+    .cont{
+        background-color: white;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-right: 100px;
+        margin-bottom: 20%;
+        border-radius: 50px;
+        
+    }
+    .main-container{
+        margin-left: 576px;
+        margin-top: 10px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .image {
+        margin: 2%;
+        margin-left: 10px;
+    }
+    .texts {
+        margin-top: 15%;
+        margin-left: 880px;
+    }
+
+} 
